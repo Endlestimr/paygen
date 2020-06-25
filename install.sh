@@ -13,7 +13,7 @@ echo
 sleep 2
 chmod 777 paygen
 echo
-cp paygen $PREFIX/bin
+cp -r paygen $PREFIX/bin
 echo
 sleep 1
 echo "${green}${bold} ~ PayGen Successfully Installed"
