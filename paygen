@@ -46,11 +46,10 @@ echo "                 ╚═════•|✿|•═════╝"
 echo "${reset}"
 echo "${bt}"
 echo "${cyan} ~ Script Is Made By Ihtisham Ali (Shadow Walker)"
-echo "${cyan} ~ YouTube Channel: Shadow Walker"
+echo "${cyan} ~ YouTube Channel: https://tiny.cc/ShadowYT"
 echo "${cyan} ~ Instagram: ShadowWalker143"
-echo
+echo "${cyan} ~ Facebook: ShadowWalkerYT"
 echo "${cyan}${bt} • Payload Generator ${reset}"
-echo
 echo "${red}${bt} • This Script Will Only Work If You've"
 echo "   Metasploit Installed ${reset}"
 echo 
