@@ -24,3 +24,4 @@ echo
 sleep 1
 echo "${cyan}${bold} ~ Made By Shadow Walker "
 echo 
+xdg-open https://youtube.com/shadowwalkeryt
