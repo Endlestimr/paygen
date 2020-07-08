@@ -65,7 +65,7 @@ read -p "${green}${bt} ~ Enter Your LHOST (IP Or Ngrok): ${reset}${blue}${bt}" l
 echo
 read -p "${green}${bt} ~ Enter Your LPORT (4444 Or Ngrok): ${reset}${blue}${bt}" lport
 echo
-read -p "${green}${bt} ~ Enter Your App Name (Game): ${reset}${blue}${bt}" name
+read -p "${green}${bt} ~ Enter Your App Name Without .apk (Game): ${reset}${blue}${bt}" name
 echo
 echo
 echo "${yellow}${bt} ~ Please Wait The App Is Generating...${reset}"
