@@ -49,7 +49,7 @@ echo "${cyan} ~ Script Is Made By Ihtisham Ali (Shadow Walker)"
 echo "${cyan} ~ YouTube Channel: Shadow Walker"
 echo "${cyan} ~ Instagram: ShadowWalker143"
 echo
-echo "${white}${bt} • Payload Generator ${reset}"
+echo "${cyan}${bt} • Payload Generator ${reset}"
 echo
 echo "${red}${bt} • This Script Will Only Work If You've"
 echo "   Metasploit Installed ${reset}"
@@ -59,7 +59,7 @@ while IFS=$': \t' read -a line ;do
     [ -z "${line%inet}" ] && ip=${line[${#line[1]}>4?1:2]} &&
         [ "${ip#127.0.0.1}" ] && myip=$ip
   done< <(LANG=C $PREFIX/bin/ifconfig)
-echo " ~ Your Internal IP Is: $myip"
+echo "${green}${bt} ~ Your Internal IP Is:${yellow}${bt} $myip"
 echo
 read -p "${green}${bt} ~ Enter Your LHOST (IP Or Ngrok): ${reset}${blue}${bt}" lhost
 echo
