@@ -1,32 +1,37 @@
-# paygen
+## PayGen
 
-Developer: Ihtisham Ali (Shadow Walker)
-Instagram: ShadowWalker143
-Facebook: ShadowWalker005
-YouTube Channel: https://tiny.cc/ShadowYT
+**Metasploit Payload Generator For Android**
 
+***Don't Copy Without Giving Me Credit! Script Kiddie xD***
 
-PayGen Is Simple Android Payload Generator Only For Termux Users
+**Show Some Support By Subscribing My Channel** [SUBSCRIBE](https://youtube.com/ShadowWalkerYT)
 
 
-INSTALLATION:
+# INSTALLATION:
 
-To Install PayGen Run Following Commands:
+> pkg update
 
-pkg update
+> pkg install git
 
-pkg install git
+> git clone https://github.com/shadowwalker005/paygen
 
-git clone https://github.com/shadowwalker005/paygen
+> cd paygen
 
-cd paygen
+> bash install.sh
 
-chmod 777 *
+*Now Type _paygen_ To Run The Script**
 
-./install.sh
+## Developed By:
+- Ihtisham Ali aka Shadow Walker
+## Links:
+- YouTube Channel: [Shadow Walker](https://youtube.com/ShadowWalkerYT)
+- Facebook: [S. Walker](https://facebook.com/ShadowWalkerYT)
+- Blogspot: [ShadowHub]( https://shadowhub.blogspot.com)
 
 
-Now Simply Type paygen Anywhere In Termux To Run PayGen
 
-NOTE: 
-IT WILL ONLY WORK IF YOU HAVE METASPLOIT INSTALLED
+**In Case Of Any Issues Please Feel Free To Contact Me**
+
+**Also Check Out My YouTube Channel:** [Shadow Walker](https://youtube.com/ShadowWalkerYT)
+
+
